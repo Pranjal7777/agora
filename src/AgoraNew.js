@@ -32,7 +32,7 @@ function removeVideoStream(elementId) {
 
 let client = AgoraRTC.createClient({
     mode: "rtc",
-    codec: "vp8",
+    codec: "h264",
 });
 
 client.init("5fe0911ee57f4a20b71eca228831f695", function() {
